@@ -1,0 +1,69 @@
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <!-- NOTE: add "navbar-inverse" class for an alternate navbar background -->
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">RMarkdown Website</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="PageA.html">Page A</a></li>
+        <li><a href="PageB.html">Page B</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://github.com">GitHub</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h2 {
+  padding-top: 55px;
+  margin-top: -55px;
+}
+.section h3 {
+  padding-top: 55px;
+  margin-top: -55px;
+}
+.section h4 {
+  padding-top: 55px;
+  margin-top: -55px;
+}
+.section h5 {
+  padding-top: 55px;
+  margin-top: -55px;
+}
+.section h6 {
+  padding-top: 55px;
+  margin-top: -55px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  $('a[href="' + href + '"]').parent().addClass('active');
+});
+</script>
+
+
+
