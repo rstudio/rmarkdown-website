@@ -1,8 +1,8 @@
-## R Markdown Website Example
+# R Markdown Website Example
 
 This repository illustrates one way to create a simple website that includes multiple R Markdown documents. 
 
-# Features of the simple website include:
+## Features of the simple website include:
 
 1. Multiple Rmd files are accessible from a global navigation bar (defined in `_navbar.html`)
 
