@@ -1,4 +1,11 @@
-## R Markdown Website Example
+R Markdown Definition:-
+
+R Markdown provides an authoring framework for data science. You can use a single R Markdown file to both
+
+save and execute code
+generate high quality reports that can be shared with an audience
+
+# R Markdown Website Example
 
 This repository illustrates one way to create a simple website that includes multiple R Markdown documents. 
 
