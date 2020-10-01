@@ -1,5 +1,5 @@
 ---
-title: "Page A"
+title: "Awesome Page A"
 output: html_document
 ---
 
