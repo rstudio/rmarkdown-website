@@ -1,6 +1,7 @@
 ## R Markdown Website Example
 
 This repository illustrates one way to create a simple website that includes multiple R Markdown documents. 
+Turn your analyses into high quality documents, reports, presentations and dashboards with R Markdown
 
 Features of the simple website include:
 
